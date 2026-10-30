@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terço dos Homens - Igarapé-Açu / PA</title>
+    <!-- Tailwind CSS via CDN leve para performance (Green Software) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased min-h-screen flex flex-col justify-between">
+
+    <!-- Cabeçalho -->
+    <header class="bg-emerald-800 text-white shadow-md">
+        <div class="max-w-4xl mx-auto px-4 py-6 text-center">
+            <h1 class="text-2xl md:text-3xl font-bold tracking-wide">Terço dos Homens</h1>
+            <p class="text-emerald-200 text-sm mt-1">Igarapé-Açu / Pará</p>
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main class="max-w-4xl mx-auto px-4 py-8 flex-grow w-full space-y-6">
+        
+        <!-- Cartão de Aviso Principal -->
+        <section class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 text-center">
+            <span class="text-xs font-semibold uppercase tracking-wider text-emerald-600 bg-emerald-50 px-3 py-1 rounded-full">Aviso da Semana</span>
+            <p id="aviso-semana" class="mt-4 text-lg text-slate-700 font-medium">Bem-vindos ao Terço dos Homens de Igarapé-Açu!</p>
+        </section>
+
+        <!-- Informações dos Encontros -->
+        <div class="grid md:grid-cols-2 gap-4">
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200">
+                <h3 class="font-bold text-slate-900 mb-2 flex items-center gap-2">
+                    📅 Horário
+                </h3>
+                <p id="horario-encontro" class="text-slate-600">Todas as terças-feiras às 19:30</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200">
+                <h3 class="font-bold text-slate-900 mb-2 flex items-center gap-2">
+                    📍 Local
+                </h3>
+                <p id="local-encontro" class="text-slate-600">Igreja Matriz de Igarapé-Açu - PA</p>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="bg-slate-900 text-slate-400 text-xs py-4 text-center">
+        <p>Unidos em fé e oração • Igarapé-Açu - PA</p>
+    </footer>
+
+</body>
+</html>
